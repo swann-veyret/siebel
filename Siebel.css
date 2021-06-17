@@ -101,6 +101,14 @@ p{
 	align-items: center;
 }
 
+.logo_siebel{
+	height: 120px;
+}
+
+.logo_rs{
+	height: 30px;
+}
+
 
 #banniere{
 	display: flex;
@@ -373,6 +381,12 @@ dl#photo img
 	height: 130px;
 }
 
+/*vidéos*/
+.video{
+	height: 315px;
+	width: 560px;
+}
+
 @media screen and (max-width: 1024px)
 {
 
@@ -410,15 +424,27 @@ dl#photo img
 	font-size: 1.3em;
 }
 
+	.logo_siebel{
+	height: 90px;
+	}
+
+	.logo_rs{
+		height: 25px;
+	}
+
 
 	.legende{
 	font-size: 0.8em;
 	}
 
+	.element2{
+		min-width: 300px;
+	}
+
 
     .photo_profil{
-    min-height: 100px;
-    max-height: 200px,
+    min-height: auto;
+    max-height: 150px,
 	margin-right: 5px;
 	margin-top: 5px;
 	}
@@ -439,9 +465,10 @@ dl#photo img
 	}
 
 	.evenement_texte{
-		font-size: 1em;
-		height: auto;
+		font-size: 0.9em;
+		height: 80px;
 		min-width: auto;
+		margin: auto;
 
 	}
 
@@ -470,12 +497,16 @@ dl#photo img
 	height: 85px;
 	}
 
+	.video{
+		height: 158px;
+		width: 280px;
+	}
+
+	.hello_asso{
+		width:280px;
+		height:370px;
+	}
 
 
-}
 
-
-@media all and (max-device-width: 480px)
-{
-    
 }
