@@ -399,6 +399,14 @@ dl#photo img
     nav ul
     {
         flex-direction: column;
+        max-width: 200px;
+    }
+
+    div ul{
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+    	width: 100%;
     }
 
     p
@@ -436,6 +444,7 @@ dl#photo img
 	.legende{
 	font-size: 0.8em;
 	}
+
 
 	.element2{
 		min-width: 300px;
