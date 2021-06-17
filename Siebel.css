@@ -420,17 +420,20 @@ dl#photo img
 
     h1{
 		font-size: 2em;
-		width: 100%;
+		min-width: 300px;
 	}
 
 	h2{
 		font-size: 1.7em;
-		width: 100%;
+		min-width: 300px;
 	}
 
 	h3{
-	font-size: 1.3em;
-}
+		font-size: 1.3em;
+		min-width: 300px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 
 	.logo_siebel{
 	height: 90px;
