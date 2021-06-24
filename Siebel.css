@@ -94,6 +94,7 @@ p{
 	text-align: center;
 }
 
+
 /*Page principale*/
 #top_page{
 	display: flex;
@@ -362,7 +363,7 @@ dl#photo
 
 dl#photo dt
 {
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-family: Roboto_Light
 }
 
@@ -382,7 +383,7 @@ dl#photo img
 }
 
 .photo_galerie_mini{
-	height: 130px;
+	height: 120px;
 }
 
 /*vidéos*/
@@ -520,7 +521,7 @@ dl#photo img
 	}
 
 	.photo_galerie_mini{
-	height: 85px;
+	height: 80px;
 	}
 
 	.video{
