@@ -240,6 +240,7 @@ p{
 .photo_groupe{
 	min-width: 300px;
 	width: 100%;
+	object-fit: contain;
 }
 
 
