@@ -395,8 +395,13 @@ dl#photo img
 }
 
 @media screen and (max-width: 1024px)
-{
+    {
 
+     #banniere{
+	min-height: auto;
+	max-height: 100px;
+    }
+	
     nav
     {
         width: auto;
