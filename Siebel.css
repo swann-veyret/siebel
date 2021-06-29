@@ -396,6 +396,12 @@ dl#photo img
 
 @media screen and (max-width: 1024px)
 {
+	#banniere{
+	min-height: auto;
+	max-height: 300px;
+	background-color: #ffffff; 
+
+    }
 
     nav
     {
