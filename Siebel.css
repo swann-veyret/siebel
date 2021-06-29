@@ -123,6 +123,7 @@ p{
 	justify-content: space-around;
 	text-align: center;
 	background-color: #ffdb96; 
+	object-fit: contain;
 }
 
 #bottom_page{
