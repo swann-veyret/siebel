@@ -15,11 +15,11 @@
 }
 
 a:hover
-{ 
+{
  text-decoration:none;
- color: #122638; 
+ color: #122638;
  cursor: pointer;
-} 
+}
 
 
 figure{
@@ -79,7 +79,7 @@ h2{
 h3{
 	font-family: Roboto_Light;
 	font-size: 1.6em;
-	font-style: italic;
+	font-style: bold;
 	text-align: center;
 	min-width: 400px;
 	width: 80%;
@@ -407,7 +407,7 @@ dl#photo img
         width: auto;
         text-align: center;
     }
-    
+
     nav ul
     {
         flex-direction: column;
@@ -433,7 +433,7 @@ dl#photo img
 
     p
     {
-        /*color: red; 
+        /*color: red;
         background-color: black;*/
         margin-right: 10px;
         margin-left: 10px;
@@ -485,7 +485,7 @@ dl#photo img
 
 	.contact{
 	font-size: 1em;
-	}	
+	}
 
 	.texte_chanteur{
 		margin-left: 5px;
