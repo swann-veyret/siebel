@@ -15,11 +15,11 @@
 }
 
 a:hover
-{ 
+{
  text-decoration:none;
- color: #122638; 
+ color: #122638;
  cursor: pointer;
-} 
+}
 
 
 figure{
@@ -48,6 +48,10 @@ nav li
 div ul{
 	list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: 10px;
+
 }
 
 
@@ -75,7 +79,7 @@ h2{
 h3{
 	font-family: Roboto_Light;
 	font-size: 1.6em;
-	font-style: italic;
+	font-style: bold;
 	text-align: center;
 	min-width: 400px;
 	width: 80%;
@@ -90,6 +94,7 @@ p{
 	text-align: center;
 }
 
+
 /*Page principale*/
 #top_page{
 	display: flex;
@@ -101,6 +106,14 @@ p{
 	align-items: center;
 }
 
+.logo_siebel{
+	height: 120px;
+}
+
+.logo_rs{
+	height: 30px;
+}
+
 
 #banniere{
 	display: flex;
@@ -110,6 +123,7 @@ p{
 	justify-content: space-around;
 	text-align: center;
 	background-color: #ffdb96; 
+	object-fit: contain;
 }
 
 #bottom_page{
@@ -194,7 +208,7 @@ p{
 	margin-bottom: 10px;
 	padding: 10px;
 	font-family: Roboto_Light;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin-left: 10px;
 	margin-right: 10px;
 	line-height: 1.3;
@@ -227,6 +241,7 @@ p{
 .photo_groupe{
 	min-width: 300px;
 	width: 100%;
+	object-fit: contain;
 }
 
 
@@ -350,7 +365,7 @@ dl#photo
 
 dl#photo dt
 {
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-family: Roboto_Light
 }
 
@@ -370,26 +385,55 @@ dl#photo img
 }
 
 .photo_galerie_mini{
-	height: 130px;
+	height: 120px;
+}
+
+/*vidéos*/
+.video{
+	height: 315px;
+	width: 560px;
 }
 
 @media screen and (max-width: 1024px)
 {
+	#banniere{
+	min-height: auto;
+	background-color: #ffffff; 
+
+    }
 
     nav
     {
         width: auto;
-        text-align: left;
+        text-align: center;
     }
-    
+
     nav ul
     {
         flex-direction: column;
+        max-width: 160px;
+    }
+
+    nav ul li{
+    	max-width: 160px;
+    }
+
+
+    div ul{
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: flex-start;
+    	max-width: 300px;
+    }
+
+    div li{
+    	margin-right:10px;
+    	margin-bottom: 3px;
     }
 
     p
     {
-        /*color: red; 
+        /*color: red;
         background-color: black;*/
         margin-right: 10px;
         margin-left: 10px;
@@ -398,17 +442,28 @@ dl#photo img
 
     h1{
 		font-size: 2em;
-		width: 100%;
+		min-width: 300px;
 	}
 
 	h2{
 		font-size: 1.7em;
-		width: 100%;
+		min-width: 300px;
 	}
 
 	h3{
-	font-size: 1.3em;
-}
+		font-size: 1.3em;
+		min-width: 300px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.logo_siebel{
+	height: 85px;
+	}
+
+	.logo_rs{
+		height: 25px;
+	}
 
 
 	.legende{
@@ -416,16 +471,21 @@ dl#photo img
 	}
 
 
+	.element2{
+		min-width: 300px;
+	}
+
+
     .photo_profil{
-    min-height: 100px;
-    max-height: 200px,
+    min-height: auto;
+    max-height: 150px,
 	margin-right: 5px;
 	margin-top: 5px;
 	}
 
 	.contact{
 	font-size: 1em;
-	}	
+	}
 
 	.texte_chanteur{
 		margin-left: 5px;
@@ -439,9 +499,10 @@ dl#photo img
 	}
 
 	.evenement_texte{
-		font-size: 1em;
-		height: auto;
+		font-size: 0.8em;
+		height: 80px;
 		min-width: auto;
+		margin: auto;
 
 	}
 
@@ -463,19 +524,29 @@ dl#photo img
 	}
 
 	div#galerie{
-		width: 90% ;
+		width: 100% ;
+        margin: auto ;
+
 	}
 
 	.photo_galerie_mini{
-	height: 85px;
+	height: 50px;
 	}
 
+	.video{
+		height: 158px;
+		width: 280px;
+	}
+
+	.hello_asso{
+		width:280px;
+		height:370px;
+	}
+
+	dl#photo dt{
+  	font-size: 0.9em;
+  	}
 
 
-}
 
-
-@media all and (max-device-width: 480px)
-{
-    
 }
