@@ -326,6 +326,7 @@ div#galerie
   justify-content: center;
   flex-wrap: wrap;
   width: 60% ;
+  height:auto;
   background: #FFECCA ;
   padding: 15px ;
   margin: 15px 30px ;
@@ -382,10 +383,12 @@ dl#photo img
 
 .photo_galerie{
 	max-height: 500px;
+  width: auto;
 }
 
 .photo_galerie_mini{
-	height: 120px;
+	max-height: 120px;
+  width:auto;
 }
 
 /*vidéos*/
@@ -530,7 +533,8 @@ dl#photo img
 	}
 
 	.photo_galerie_mini{
-	height: 50px;
+	max-height: 50px;
+  width:auto;
 	}
 
 	.video{
